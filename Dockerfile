@@ -1,6 +1,6 @@
 FROM debian:bookworm-slim
 
-ARG ALLURE_VERSION=2.24.1
+ARG ALLURE_VERSION=2.25.0
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends --no-install-suggests wget openjdk-17-jre-headless \
